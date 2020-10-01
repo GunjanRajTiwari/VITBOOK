@@ -201,7 +201,7 @@ a, a:hover, a:focus {
 }
 
 #sidebar ul.components {
-  padding: 20px 0;
+  padding: 25px 0;
 }
 
 #sidebar ul p {
@@ -337,10 +337,12 @@ div.inn{
 }
 
 .footer{
-  margin-top: 25px;
-  margin-bottom: 10px;  
+  margin-top: 25px;  
   flex-wrap: nowrap;
-
+  padding: 16px 0px;
+  background-color: #fff;
+  border: 1px solid rgb(219, 219, 219);
+  position: sticky;
 }
 
 ul.footer-ul {
@@ -368,4 +370,8 @@ ul.connect-ul{
   flex-direction: row;
   justify-content: space-between;
   list-style-type: none;
+}
+
+.components{
+  min-width: 200px;
 }

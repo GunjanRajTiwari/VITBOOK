@@ -11,13 +11,13 @@
         </nav>
     </div>
     <div class="wrapper">
-        <nav id="sidebar">
+        <!-- <nav id="sidebar">
             <div class="sidebar-header">
                 <h3>Options:</h3>
-            </div>
+            </div> -->
 
             <ul class="list-unstyled components">
-                <div class="container mb-4">
+                <div class="container mb-4 pt-3">
                     <a href="{% url 'profileDetail' request.user.id %}">
                         <img src="/images/{{ request.user.myprofile.pic }}" alt="Not Provided" width="30px" height="30px">
                         <b class="text-break">Hello, {{user.username}}!</b>
